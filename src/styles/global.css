@@ -136,6 +136,8 @@ input {
 }
 
 .a-cadastro {
+  display: flex;
+  gap: 4px;
   text-decoration: none;
   color: #FFFFFF;
   font-size: 12px;

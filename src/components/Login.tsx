@@ -1,6 +1,8 @@
 import React from 'react';
 // import styles from '../styles/Login.module.css';
 import imagem from '../assets/images/section_direita.png'
+import { HiOutlineArrowRight } from "react-icons/hi";
+
 
 const Login: React.FC = () => {
     return (
@@ -22,7 +24,8 @@ const Login: React.FC = () => {
                 </div>
                 <div className="form-cta">
                     <button className="btn-login" type="submit">Login</button>
-                    <a className="a-cadastro" href="cadastro.html">desejo fazer cadastro</a>
+                    <a className="a-cadastro" href="cadastro.html">desejo fazer cadastro <HiOutlineArrowRight style={{ fontSize: '18px'}} />
+                    </a>
                 </div>
             </section>
             <section>
