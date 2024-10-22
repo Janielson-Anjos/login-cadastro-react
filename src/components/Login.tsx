@@ -1,44 +1,10 @@
-// import styles from '../styles/Login.module.css';
-
-// export const Login = () => {
-//   return (
-//     <main className={styles.container}>
-//       <section className={styles.form}>
-//         <h2>Login</h2>
-//         <div className={styles.formContent}>
-//           <label>E-mail institucional:</label>
-//           <input type="email" />
-//           <label>Senha:</label>
-//           <input type="password" />
-//         </div>
-//         <div className={styles.formOptions}>
-//           <div>
-//             <input type="checkbox" id="remember" />
-//             <label htmlFor="remember">Lembrar de mim</label>
-//           </div>
-//           <a href="#">Esqueceu a senha?</a>
-//         </div>
-//         <div className={styles.formCTA}>
-//           <button className={styles.btnLogin}>Login</button>
-//           <a href="/cadastro" className={styles.aCadastro}>
-//             desejo fazer cadastro
-//           </a>
-//         </div>
-//       </section>
-//       <section>
-//         <img src="assets/imagens/section_direita.png" alt="" />
-//       </section>
-//     </main>
-//   );
-// };
-
-
-// src/components/Login.tsx
 import React from 'react';
+// import styles from '../styles/Login.module.css';
+import imagem from '../assets/images/section_direita.png'
 
 const Login: React.FC = () => {
     return (
-        <main>
+        <main className='container'>
             <section className="form">
                 <h2>Login</h2>
                 <div className="form-conteudo">
@@ -60,7 +26,7 @@ const Login: React.FC = () => {
                 </div>
             </section>
             <section>
-                <img src="/assets/images/section_direita.png" alt="" />
+                <img src={imagem} alt="" />
             </section>
         </main>
     );

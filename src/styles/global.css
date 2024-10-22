@@ -83,6 +83,10 @@ input {
   margin-left: 60px;
 }
 
+#label-login{
+  text-align: left;
+}
+
 #imput-remenber {
   width: 16px;
   height: 16px;
@@ -94,6 +98,7 @@ input {
   font-style: normal;
   font-size: 12px;
   cursor: pointer;
+  margin-bottom: 3px;
 }
 
 #a-esqueceu-senha {
@@ -115,6 +120,9 @@ input {
 }
 
 .btn-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 160px;
   height: 45px;
   border-radius: 22px;
