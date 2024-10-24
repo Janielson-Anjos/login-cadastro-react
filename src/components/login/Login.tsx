@@ -4,6 +4,7 @@ import imagem from '../../assets/images/section_direita.png';
 import { HiOutlineArrowRight } from "react-icons/hi";
 import './login.css';
 import axios from 'axios';
+import {Link} from 'react-router-dom'
 
 const BASE_URL = "http://localhost:3000/Usuario";
 
@@ -45,7 +46,7 @@ const Login: React.FC = () => {
                 </div>
                 <div className="form-cta">
                     <button className="btn-login" type="button" onClick={loginUsuario} >Login</button>
-                    <a className="a-cadastro" href="cadastro.html">desejo fazer cadastro <HiOutlineArrowRight style={{ fontSize: '18px'}} />
+                    <a className="a-cadastro"> <Link to='/cadastro'> desejo fazer cadastro <HiOutlineArrowRight style={{ fontSize: '18px'}} /></Link>
                     </a>
                 </div>
             </section>
