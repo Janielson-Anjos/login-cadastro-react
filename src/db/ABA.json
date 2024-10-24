@@ -13,6 +13,13 @@
         "emailSecundario": "test@email.com",
         "dataNascimento": "21-01-1994",
         "senha": "test"
+      },
+      {
+        "nome": "admin",
+        "emailInstitucional": "admin",
+        "emailSecundario": "admin",
+        "dataNascimento": "21-01-1994",
+        "senha": "admin"
       }
     ]
     
