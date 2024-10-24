@@ -21,7 +21,7 @@ const Login: React.FC = () => {
             alert("Login bem-sucedido!");
         } catch (error) {
             console.error("Erro ao realizar login:", error);
-            // Aqui você pode mostrar uma mensagem de erro ao usuário
+            
         }
     }
 
@@ -46,7 +46,7 @@ const Login: React.FC = () => {
                 </div>
                 <div className="form-cta">
                     <button className="btn-login" type="button" onClick={loginUsuario} >Login</button>
-                    <a className="a-cadastro"> <Link to='/cadastro'> desejo fazer cadastro <HiOutlineArrowRight style={{ fontSize: '18px'}} /></Link>
+                    <a className="a-login"> <Link to='/cadastro'> desejo fazer cadastro <HiOutlineArrowRight style={{ fontSize: '18px'}} /></Link>
                     </a>
                 </div>
             </section>

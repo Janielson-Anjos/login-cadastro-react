@@ -107,7 +107,7 @@ input {
   transition: color 0.4s ease;
 }
 
-.form-cta {
+.form-cta-cadastro {
   display: flex;
   align-items: center;
   margin-top: 29px;
@@ -117,7 +117,7 @@ input {
   margin-left: 60px;
 }
 
-.btn-login {
+.btn-cadastro {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -139,15 +139,28 @@ input {
   text-decoration: none;
   color: #FFFFFF;
   font-size: 12px;
+  a{
+    text-decoration: none;
+  
+  }
 }
 
-.btn-login:hover {
+a{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.btn-cadastro:hover {
   color: #FFFFFF;
   background-color: #0c6b94;
   transition: background-color 0.4s ease;
 }
 
-.a-cadastro:hover {
+a:hover {
   color: #dfdfdf;
   transition: color 0.4s ease;
 }

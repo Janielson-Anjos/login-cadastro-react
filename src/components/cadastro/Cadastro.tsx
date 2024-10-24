@@ -6,7 +6,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import {Link} from 'react-router-dom'
 
-const BASE_URL = "http://localhost:3001/Usuario";
+const BASE_URL = "http://localhost:3000/Usuario";
 
 interface Usuario {
   nome: string;
@@ -61,9 +61,9 @@ const Cadastro: React.FC = () => {
           <input type="password" value={novoUsuario.senha}
             onChange={(e) => setNovoUsuario({ ...novoUsuario, senha: e.target.value })} />
         </div>
-        <div className='form-cta'>
-          <button className='btn-login' onClick={criarUsuario}>Cadastrar</button>
-          <a className='a-cadastro'> <Link to='/login'> <HiOutlineArrowLeft style={{ fontSize: '18px' }} /> desejo fazer login </Link></a>
+        <div className='form-cta-cadastro'>
+          <button className='btn-cadastro' onClick={criarUsuario}>Cadastrar</button>
+          <Link to='/login'> <HiOutlineArrowLeft style={{ fontSize: '18px' }} /> desejo fazer login </Link>
         </div>
       </section>
     </main>

@@ -125,6 +125,9 @@ input {
   gap: 90px;
   align-items: center;
   margin-top: 29px;
+  a{
+    text-decoration: none;
+  }
 }
 
 .btn-login {
@@ -143,7 +146,7 @@ input {
   color: #0A3161;
 }
 
-.a-cadastro {
+.a-login {
   display: flex;
   gap: 4px;
   text-decoration: none;
@@ -157,7 +160,7 @@ input {
   transition: background-color 0.4s ease;
 }
 
-.a-cadastro:hover {
+.a-login:hover {
   color: #dfdfdf;
   transition: color 0.4s ease;
 }
